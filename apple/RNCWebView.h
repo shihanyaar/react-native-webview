@@ -71,5 +71,6 @@
 - (void)goBack;
 - (void)reload;
 - (void)stopLoading;
+- (void)setCookies:(NSString *_Nullable)cookies;
 
 @end

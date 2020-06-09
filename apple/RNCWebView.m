@@ -1121,6 +1121,12 @@ static NSDictionary* customCertificatesForHost;
   [self evaluateJS: script thenCall: nil];
 }
 
+- (void)setCookies:(NSString *)cookies
+{
+  [self evaluateJS: cookies thenCall: nil];
+}
+
+
 - (void)goForward
 {
   [_webView goForward];
